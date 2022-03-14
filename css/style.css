@@ -19,7 +19,7 @@ body{
   background-color: var(--very-dark-blue);
 }
 .card{
-    width: 50vw;
+    width: 60vw;
     height: 360px;
     background-color: var(--card-background);
     justify-content: center;
@@ -63,14 +63,15 @@ body{
     line-height: 1.5rem;
 }
 
-.grid-container{
+/* .card__info{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
+    gap: 2rem;
+} */
 
 .card__image{
     position: absolute;
-    height: 360px;
+    height: 100%;
     width: auto;
     display: block;
     top: 0;
@@ -111,4 +112,12 @@ body{
 
 .card__info p{
   text-transform: uppercase;
+}
+
+div img{
+  mix-blend-mode: lighten;
+}
+
+.mix-blend-mode-container{
+  background-color: var(--accent-color);
 }

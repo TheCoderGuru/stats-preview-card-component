@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](http:/github.com/TheCoderGuru/stats-preview-card-component/)
-- Live Site URL: [Add live site URL here](http://stats-preview-card-component-jet.vercel.app/)
+- Solution URL: [Check out the code](http:/github.com/TheCoderGuru/stats-preview-card-component/)
+- Live Site URL: [Preview the site](http://stats-preview-card-component-jet.vercel.app/)
 
 ## My process
 

@@ -28,7 +28,7 @@ body {
   position: relative;
   margin-top: 12rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   border-radius: 0.5rem;
 }
 
@@ -61,11 +61,11 @@ body {
   line-height: 1.5rem;
 }
 
-/* .card__info{
+.card__info{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
-} */
+}
 
 .card__image {
   position: absolute;
@@ -76,6 +76,8 @@ body {
   right: 0;
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
+  mix-blend-mode: screen;
+  background-color: red;
 }
 
 .accent-background {
@@ -110,13 +112,4 @@ body {
 
 .card__info p {
   text-transform: uppercase;
-}
-
-div img {
-  mix-blend-mode: luminosity;
-
-}
-
-.mix-blend-mode-container {
-  background-color: red;
 }

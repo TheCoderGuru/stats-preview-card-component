@@ -15,10 +15,15 @@ body {
   font-size: 15px;
 }
 
+/* * sets the max-width of the container to 1024px */
+
+/* ? centers the container in the middle of the scren */
+
 .container {
   max-width: 1020px;
   margin: 0 auto;
 }
+
 
 .wrapper {
   background-color: hsl(244, 38%, 16%);
@@ -28,6 +33,10 @@ body {
   overflow: hidden;
   margin: 2rem;
 }
+
+/* * sets the height and the width of the image to 100% */
+
+/* ? adds object-fit: cover to not skew the image when resize */
 
 .img-component img {
   width: 100%;
@@ -39,6 +48,8 @@ body {
   position: relative;
 }
 
+/* * adds the following properties after the image */
+
 .img-component::after {
   position: absolute;
   content: "";
@@ -46,12 +57,15 @@ body {
   width: 100%;
   left: 0;
   top: 0;
-  background-color: hsla(277, 64%, 61%, 0.6);
+  background-color: hsla(277, 64%, 61%, 0.8);
 }
+
+/* * adds 13% of the full padding on the text component */
 
 .text-component {
   padding: 13%;
 }
+
 
 .title {
   color: hsl(0, 0%, 100%);
@@ -68,12 +82,16 @@ body {
   line-height: 1.8;
 }
 
+/* *  adds a display of flex and justify-content of space-between on thr stat box. */
+
 .stat-box {
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
   padding-top: 60px;
 }
+
+/* * targets the paragraph with the class "num" within the stat-box container */
 
 .stat-box p.num {
   color: hsl(0, 0%, 100%);
@@ -138,31 +156,4 @@ body {
   .stat-box div {
     margin-top: 20px;
   }
-}
-/* Youtube link */
-.link {
-  position: fixed;
-  background-color: #d12322;
-  padding: 23px 40px;
-  right: -95px;
-  border-radius: 5px;
-  top: 50%;
-  transform: translateY(-50%);
-  transform: rotate(-90deg);
-  font-size: 18px;
-  font-weight: 500;
-  color: #fff;
-  text-decoration: none;
-  text-transform: capitalize;
-  transition: all 0.1s ease-in-out;
-}
-
-.link i {
-  padding-left: 7px;
-}
-
-.link:hover {
-  text-decoration: underline;
-  background-color: white;
-  color: #d12322;
 }

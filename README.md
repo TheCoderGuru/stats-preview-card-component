@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./stats-preview.PNG)
+![](./stats-preview.png)
 
 
 ### Links
@@ -48,15 +48,16 @@ Users should be able to:
 
 ### What I learned
 
-Throughout this challenge, I learned how to use flex and grid and I did have difficulties with getting the card to be responsive for a mobile design.
+I learnt while doing this challenge that the html code for the mobile version should be structured in the order of image first and then content. The benefit of this structure is that it helps in terms of productivity within the code whereby you only have to do minimal code in order to achieve the layout on the desktop version.
 
 ### Continued development
 
-I plan to continue learning css and using css as much as possible, in addition to reading web development documentation in order to learn more concepts.
+I plan to use the tips specified above in solutions that require image first then content alignment in order to write efficient code so that I am able to achieve the layout in a simpler way.
 
 ### Useful resources
 
 - [MDN CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS) - This is the guide to all the css properties with an indept explanation. Definitely recommend it.
+[MDN Css Grid Reference](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 
 ## Author
